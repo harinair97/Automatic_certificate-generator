@@ -21,7 +21,7 @@ def create_certi(name):
     img = Image.open("/home/harinair97/Desktop/automatic certificate generator/img.jpg")
     draw = ImageDraw.Draw(img)
 
-
+    #selecting the required font and text size
     path="/home/harinair97/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf"
     selectFont = ImageFont.truetype(path, size = 60)
 
